@@ -61,7 +61,6 @@ def updateApplicationPageView(request):
         application_id = request.POST['application_id']
         application = Application.objects.get(id=application_id)
         application.CompanyName = request.POST['CompanyName']
-        application.DateApplied = request.POST['DateApplied']
         application.RecruiterName = request.POST['RecruiterName']
         application.RecruiterEmail = request.POST['RecruiterEmail']
         application.Status = request.POST['Status']
