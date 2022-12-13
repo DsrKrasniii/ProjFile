@@ -1,3 +1,5 @@
+# Group 1-3 Trey Redd, Joe Slaugh, Dallin Blanc, Connor Chytraus
+
 """
 Django settings for ApplicationTracker project.
 
